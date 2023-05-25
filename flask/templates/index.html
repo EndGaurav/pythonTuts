@@ -1,0 +1,793 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>W3Schools Online Web Tutorials</title>
+    <script src="https://kit.fontawesome.com/41238748b3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media-queries.css">
+</head>
+<!-- ye bhi tune he bheja tha v=ch -->
+<body>
+    <div class="container">
+        <nav>
+            <div class="nav-ul-1" id="nav-scroll">
+                <img class="logo" src="/images/w3s-logo.png" alt="">
+                <div class="toggle-menu-container">
+                    <input type="checkbox">
+                    <div class="menu">Menu<i class="fa-solid fa-caret-down"></i></div>
+                </div>
+
+                <ul class="first-ul">
+                    <!-------------------- Expand Part Start ------------->
+
+                    <!------Tutorail Part--------------------->
+                    <input type="checkbox" class="tutorial-checkbox">
+                    <li class="tut-down down">Tutorials <i class="fa-solid fa-caret-down"></i></li>
+                    <div class="tut-expand">
+                        <h2 class="tut-main-heading">Tutorials</h2>
+                        <div class="exp-box">
+                            <h3 class="exp-heading">HTML and CSS</h3>
+                            <a class="exp-items" href="#">Learn HTML</a>
+                            <a class="exp-items" href="#">Learn CSS</a>
+                            <a class="exp-items" href="#">Learn RWD</a>
+                            <a class="exp-items" href="#">Learn Bootstrap</a>
+                            <a class="exp-items" href="#">Learn W3.CSS</a>
+                            <a class="exp-items" href="#">Learn Colors</a>
+                            <a class="exp-items" href="#">Learn Icons</a>
+                            <a class="exp-items" href="#">Learn Graphics</a>
+                            <a class="exp-items" href="#">Learn SVG</a>
+                            <a class="exp-items" href="#">Learn Canvas</a>
+                            <a class="exp-items" href="#">Learn How To</a>
+                            <a class="exp-items" href="#">Learn Sass</a>
+                        </div>
+                        <div class="exp-box">
+                            <h3 class="exp-heading">JavaScript</h3>
+                            <a class="exp-items" href="#">Learn JavaScript</a>
+                            <a class="exp-items" href="#">Learn jQuery</a>
+                            <a class="exp-items" href="#">Learn React</a>
+                            <a class="exp-items" href="#">Learn AngularJS</a>
+                            <a class="exp-items" href="#">Learn JSON</a>
+                            <a class="exp-items" href="#">Learn AJAX</a>
+                            <a class="exp-items" href="#">Learn AppML</a>
+                            <a class="exp-items" href="#">Learn W3.JS</a>
+
+                            <h3 class="exp-heading">Programming</h3>
+
+                            <a class="exp-items" href="#">Learn Python</a>
+                            <a class="exp-items" href="#">Learn Java</a>
+                            <a class="exp-items" href="#">Learn C</a>
+                            <a class="exp-items" href="#">Learn C++</a>
+                            <a class="exp-items" href="#">Learn C#</a>
+                            <a class="exp-items" href="#">Learn R</a>
+                            <a class="exp-items" href="#">Learn Kotlin</a>
+                            <a class="exp-items" href="#">Learn Go</a>
+                            <a class="exp-items" href="#">Learn Django</a>
+                            <a class="exp-items" href="#">Learn TypeScript</a>
+                        </div>
+                        <div class="exp-box">
+                            <h3 class="exp-heading">Server Side</h3>
+                            <a class="exp-items" href="#"> Learn SQL</a>
+                            <a class="exp-items" href="#"> Learn MySQL</a>
+                            <a class="exp-items" href="#"> Learn PHP</a>
+                            <a class="exp-items" href="#"> Learn ASP</a>
+                            <a class="exp-items" href="#"> Learn Node.js</a>
+                            <a class="exp-items" href="#">Learn Raspberry Pi</a>
+                            <a class="exp-items" href="#"> Learn Git</a>
+                            <a class="exp-items" href="#"> Learn MongoDB</a>
+                            <a class="exp-items" href="#"> Learn AWS Cloud</a>
+
+                            <h3 class="exp-heading">Web Building</h3>
+
+                            <a class="exp-items" href="#"> Create a Website</a>
+                            <a class="exp-items" href="#"> Where To Start</a>
+                            <a class="exp-items" href="#"> Web Templates</a>
+                            <a class="exp-items" href="#"> Web Statistics</a>
+                            <a class="exp-items" href="#"> Web Certificate</a>
+                            <a class="exp-items" href="#">Web Development</a>
+                            <a class="exp-items" href="#">Code Editor</a>
+                            <a class="exp-items" href="#"> Test Your Typing Speed</a>
+                            <a class="exp-items" href="#">Play a Code Game</a>
+                            <a class="exp-items" href="#">Cyber Security</a>
+                            <a class="exp-items" href="#">Accessiblity</a>
+                            <a class="exp-items" href="#">Join our Newsletter</a>
+                        </div>
+                        <div class="exp-box">
+                            <h3 class="exp-heading">Data Analytics</h3>
+                            <a class="exp-items" href="#"> Learn AI</a>
+                            <a class="exp-items" href="#"> Learn Machine Learning</a>
+                            <a class="exp-items" href="#"> Learn Data Science</a>
+                            <a class="exp-items" href="#"> Learn NumPy</a>
+                            <a class="exp-items" href="#"> Learn Pandas</a>
+                            <a class="exp-items" href="#">Learn Scipy</a>
+                            <a class="exp-items" href="#"> Learn Matplotib</a>
+                            <a class="exp-items" href="#"> Learn Staistics</a>
+                            <a class="exp-items" href="#"> Learn Excel</a>
+                            <a class="exp-items" href="#"> Learn Google Sheets</a>
+
+                            <h3 class="exp-heading">XML Tutorials</h3>
+                            <a class="exp-items" href="#"> Learn XML</a>
+                            <a class="exp-items" href="#"> Learn XML AJAX</a>
+                            <a class="exp-items" href="#"> Learn XML DOM</a>
+                            <a class="exp-items" href="#"> Learn XML DTD</a>
+                            <a class="exp-items" href="#"> Learn XML Schema</a>
+                            <a class="exp-items" href="#"> Learn XSLT</a>
+                            <a class="exp-items" href="#"> Learn XPath</a>
+                            <a class="exp-items" href="#"> Learn XQuery</a>
+
+                        </div>
+                    </div>
+
+                    <!-- -----------------------------Reference Part--------------------->
+
+                    <input type="checkbox" class="reference-checkbox">
+                    <li class="ref-down down">References <i class="fa-solid fa-caret-down"></i></li>
+                    <div class="ref-expand">
+                        <h2 class="ref-main-heading">References</h2>
+                        <div class="exp-box">
+                            <h3 class="exp-heading">HTML</h3>
+                            <a class="exp-items" href="#">HTML Tag Reference</a>
+                            <a class="exp-items" href="#">HTML Browser Support</a>
+                            <a class="exp-items" href="#">HTML Event Reference</a>
+                            <a class="exp-items" href="#">HTML Color Reference</a>
+                            <a class="exp-items" href="#">HTML Attribute Reference</a>
+                            <a class="exp-items" href="#">HTML Canvas Reference</a>
+                            <a class="exp-items" href="#">HTML SVG Reference</a>
+                            <a class="exp-items" href="#">Google Maps Reference</a>
+
+                            <h3 class="exp-heading">CSS</h3>
+                            <a class="exp-items" href="#">CSS Reference</a>
+                            <a clas s="exp-items" href="#">CSS Browser Support</a>
+                            <a class="exp-items" href="#">CSS Selector Reference</a>
+                            <a class="exp-items" href="#">Bootstrap 3 Reference</a>
+                            <a class="exp-items" href="#">Bootstrap 4 Reference</a>
+                            <a class="exp-items" href="#">W3.CSS Reference</a>
+                            <a class="exp-items" href="#">Icon Reference</a>
+                            <a class="exp-items" href="#">Sass Reference</a>
+                        </div>
+                        <div class="exp-box">
+                            <h3 class="exp-heading">JavaScript</h3>
+                            <a class="exp-items" href="#">JavaScript Reference</a>
+                            <a class="exp-items" href="#">HTML DOM Reference</a>
+                            <a class="exp-items" href="#">jQuery Reference</a>
+                            <a class="exp-items" href="#">Learn AngularJS</a>
+                            <a class="exp-items" href="#">AngularJS Reference</a>
+                            <a class="exp-items" href="#">AppML Reference</a>
+                            <a class="exp-items" href="#">W3.JS Reference</a>
+
+                            <h3 class="exp-heading">Programming</h3>
+
+                            <a class="exp-items" href="#">Python Reference</a>
+                            <a class="exp-items" href="#">Java Reference</a>
+                        </div>
+                        <div class="exp-box">
+                            <h3 class="exp-heading">Server Side</h3>
+                            <a class="exp-items" href="#">SQL Reference</a>
+                            <a class="exp-items" href="#">MySQL Reference</a>
+                            <a class="exp-items" href="#">PHP Reference</a>
+                            <a class="exp-items" href="#">ASP Reference</a>
+
+                            <h3 class="exp-heading">XML</h3>
+
+                            <a class="exp-items" href="#">XML</a>
+                            <a class="exp-items" href="#">XML DOM Reference</a>
+                            <a class="exp-items" href="#">XML Http Reference</a>
+                            <a class="exp-items" href="#">XSLT Reference</a>
+                            <a class="exp-items" href="#">XML Schema Reference</a>
+                        </div>
+                        <div class="exp-box">
+                            <h3 class="exp-heading">Character Sets</h3>
+                            <a class="exp-items" href="#">HTML Character Sets</a>
+                            <a class="exp-items" href="#">HTML ASCII</a>
+                            <a class="exp-items" href="#">HTML ANSI</a>
+                            <a class="exp-items" href="#">HTML ANSI</a>
+                            <a class="exp-items" href="#">HTML Windows-1252</a>
+                            <a class="exp-items" href="#">HTML ISO-8859-1</a>
+                            <a class="exp-items" href="#">HTML Symbols</a>
+                            <a class="exp-items" href="#">HTML UTF-8</a>
+                        </div>
+                    </div>
+
+                    <!-- -----------------------------Excercise Part--------------------->
+
+                    <input type="checkbox" class="exercise-checkbox">
+                    <li class="exe-down down">Excercises <i class="fa-solid fa-caret-down"></i></li>
+                    <div class="exe-expand">
+                        <h2 class="exe-main-heading">Exercises Quizzes</h2>
+                        <div class="exp-box">
+                            <h3 class="exp-heading">Exercises</h3>
+                            <a class="exp-items" href="#">HTML Exercises</a>
+                            <a class="exp-items" href="#">CSS Exercises</a>
+                            <a class="exp-items" href="#">JavaScript Exercises</a>
+                            <a class="exp-items" href="#">Python Exercises</a>
+                            <a class="exp-items" href="#">SQL Exercises</a>
+                            <a class="exp-items" href="#">PHP Exercises</a>
+                            <a class="exp-items" href="#">Java Exercises</a>
+                            <a class="exp-items" href="#">C Exercises</a>
+                            <a class="exp-items" href="#">C++ Exercises</a>
+                            <a class="exp-items" href="#">C# Exercises</a>
+                            <a class="exp-items" href="#">jQuery Exercises</a>
+                            <a class="exp-items" href="#">React.js Exercises</a>
+                            <a class="exp-items" href="#">MySQL Exercises</a>
+                            <a class="exp-items" href="#">Bootstrap 5 Exercises</a>
+                            <a class="exp-items" href="#">Bootstrap 4 Excercises</a>
+                            <a class="exp-items" href="#">Bootstrap 3 Exercises </a>
+                            <a class="exp-items" href="#">NumPy Exercises</a>
+                            <a class="exp-items" href="#">Pandas Excercises</a>
+                            <a class="exp-items" href="#">SciPy Excercises</a>
+                            <a class="exp-items" href="#">TypeScript Excercises</a>
+                            <a class="exp-items" href="#">Excel Excercises</a>
+                            <a class="exp-items" href="#">R Excercises</a>
+                            <a class="exp-items" href="#">Git Excercises</a>
+                            <a class="exp-items" href="#">Kotlin Excercises</a>
+                            <a class="exp-items" href="#">Go Excercises Excercises</a>
+                            <a class="exp-items" href="#">MongoDB Excercises</a>
+                        </div>
+                        <div class="exp-box">
+                            <h3 class="exp-heading exercise-heading">Quizzes</h3>
+                            <a class="exp-items" href="#">HTML Quiz</a>
+                            <a class="exp-items" href="#">CSS Quiz</a>
+                            <a class="exp-items" href="#">JavaScript Quiz</a>
+                            <a class="exp-items" href="#">Python Quiz</a>
+                            <a class="exp-items" href="#">SQL Quiz</a>
+                            <a class="exp-items" href="#">PHP Quiz</a>
+                            <a class="exp-items" href="#">Java Quiz</a>
+                            <a class="exp-items" href="#">C Quiz</a>
+                            <a class="exp-items" href="#">C++ Quiz</a>
+                            <a class="exp-items" href="#">C# Quiz</a>
+                            <a class="exp-items" href="#">jQuery Quiz</a>
+                            <a class="exp-items" href="#">React.js Quiz</a>
+                            <a class="exp-items" href="#">MySQL Quiz</a>
+                            <a class="exp-items" href="#">Bootstrap 5 Quiz</a>
+                            <a class="exp-items" href="#">Bootstrap 4 Quiz</a>
+                            <a class="exp-items" href="#">Bootstrap 3 Quiz</a>
+                            <a class="exp-items" href="#">NumPy Quiz</a>
+                            <a class="exp-items" href="#">Pandas Quiz</a>
+                            <a class="exp-items" href="#">SciPy Quiz</a>
+                            <a class="exp-items" href="#">TypeScript Quiz</a>
+                            <a class="exp-items" href="#">XML Quiz</a>
+                            <a class="exp-items" href="#">R Quiz</a>
+                            <a class="exp-items" href="#">Git Quiz</a>
+                            <a class="exp-items" href="#">Kotlin Quiz</a>
+                            <a class="exp-items" href="#">Cyber Security Quiz</a>
+                            <a class="exp-items" href="#">Accessiblity Quiz</a>
+                        </div>
+                        <div class="exp-box">
+                            <h3 class="exp-heading exercise-heading">Courses</h3>
+                            <a class="exp-items" href="#">HTML Course</a>
+                            <a class="exp-items" href="#">CSS Course</a>
+                            <a class="exp-items" href="#">JavaScript Course</a>
+                            <a class="exp-items" href="#">Front End Course</a>
+                            <a class="exp-items" href="#">Python Course</a>
+                            <a class="exp-items" href="#">SQL Course</a>
+                            <a class="exp-items" href="#">PHP Course</a>
+                            <a class="exp-items" href="#">Java Course</a>
+                            <a class="exp-items" href="#">C++ Course</a>
+                            <a class="exp-items" href="#">C# Course</a>
+                            <a class="exp-items" href="#">jQuery Course</a>
+                            <a class="exp-items" href="#">React.js Course</a>
+                            <a class="exp-items" href="#">Bootstrap 4 Course</a>
+                            <a class="exp-items" href="#">Bootstrap 3 Course</a>
+                            <a class="exp-items" href="#">NumPy Course</a>
+                            <a class="exp-items" href="#">Pandas Course</a>
+                            <a class="exp-items" href="#">TypeScript Course</a>
+                            <a class="exp-items" href="#">XML Course</a>
+                            <a class="exp-items" href="#">R Course</a>
+                            <a class="exp-items" href="#">Data Analytics Course</a>
+                            <a class="exp-items" href="#">Cyber Security Course</a>
+                            <a class="exp-items" href="#">Accessiblity Course</a>
+                        </div>
+                        <div class="exp-box">
+                            <h3 class="exp-heading exercise-heading">Certificate</h3>
+                            <a class="exp-items" href="#">HTML Certificate</a>
+                            <a class="exp-items" href="#">CSS Certificate</a>
+                            <a class="exp-items" href="#">JavaScript Certificate</a>
+                            <a class="exp-items" href="#">Front End Certificate</a>
+                            <a class="exp-items" href="#">Python Certificate</a>
+                            <a class="exp-items" href="#">SQL Certificate</a>
+                            <a class="exp-items" href="#">PHP Certificate</a>
+                            <a class="exp-items" href="#">Java Certificate</a>
+                            <a class="exp-items" href="#">C++ Certificate</a>
+                            <a class="exp-items" href="#">C# Certificate</a>
+                            <a class="exp-items" href="#">jQuery Certificate</a>
+                            <a class="exp-items" href="#">React.js Certificate</a>
+                            <a class="exp-items" href="#">MySQL Certificate</a>
+                            <a class="exp-items" href="#">Bootstrap 5 Certificate</a>
+                            <a class="exp-items" href="#">Bootstrap 4 Certificate</a>
+                            <a class="exp-items" href="#">Bootstrap 3 Certificate</a>
+                            <a class="exp-items" href="#">TypeScript Certificate</a>
+                            <a class="exp-items" href="#">XML Certificate</a>
+                            <a class="exp-items" href="#">Excel Certificate</a>
+                            <a class="exp-items" href="#">Data Science Certificate</a>
+                            <a class="exp-items" href="#">Cyber Security Certificate</a>
+                            <a class="exp-items" href="#">Accessiblity Certificate</a>
+                        </div>
+                    </div>
+
+                    <!-- -----------------------------Video Part--------------------->
+
+                    <!-- <input type="checkbox" class="video-checkbox"> -->
+                    <li class="vid-down exp-ul">Videos</li>
+                    <div class="vid-expand">
+                        <div class="exp-video-container-1">
+                            <h1>W3SCHOOLS VIDEOS</h1>
+                            <h2>Learn HTML</h2>
+                            <p>We have made a video tutorials that covers all the basics of HTML -in a new
+                                fun format :-}
+                            </p>
+                            <p class="w3-video-last-line">Watch the first chapter for free!</p>
+                            <!-- <a href="#">
+                                <i class="fa-solid fa-play play"></i>
+                                <img src="/images/video-img.png" alt="">
+                            </a> -->
+                            <iframe width="660" height="415" src="https://www.youtube.com/embed/ewZ_YWbIWXI?rel=0"
+                                title=" video player" frameborder="0"
+                                allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                        <div class="exp-video-container-2">
+                            <h2>Video course</h2>
+                            <p class="exp-vid-first-p">Learn HTML by watching an educational cartoon!</p>
+                            <p>Subscribe to <u>PRO</u> for $4.999/month to access the video.</p>
+                            <p>You also unlock powerful features, such as W3Schools ad-free and website hoisting.</p>
+                            <p>Cancel subsription at any time.</p>
+                            <ul>
+                                <li class="exp-li-highlight"> <i class="fa-solid fa-check exp-li-highligh"></i>
+                                    Free:Introduction</li>
+                                <li> <i class="fa-solid fa-check"></i> Edtitors</li>
+                                <li> <i class="fa-solid fa-check"></i> Elements</li>
+                                <li> <i class="fa-solid fa-check"></i> Attributes</li>
+                                <li> <i class="fa-solid fa-check"></i> Heading</li>
+                                <li> <i class="fa-solid fa-check"></i> Paragraphs</li>
+                                <li> <i class="fa-solid fa-check"></i> Styles</li>
+                                <li> <i class="fa-solid fa-check"></i> Formatting</li>
+                                <li> <i class="fa-solid fa-check"></i> Comments</li>
+                                <li> <i class="fa-solid fa-check"></i> Colors</li>
+                                <li> <i class="fa-solid fa-check"></i> CSS</li>
+                                <li> <i class="fa-solid fa-check"></i> Images</li>
+                                <li> <i class="fa-solid fa-check"></i> Tables</li>
+                                <li> <i class="fa-solid fa-check"></i> Lists</li>
+                                <li> <i class="fa-solid fa-check"></i> Block vs. Inline</li>
+                                <li> <i class="fa-solid fa-check"></i> Classes</li>
+                                <li> <i class="fa-solid fa-check"></i> ID</li>
+                                <li> <i class="fa-solid fa-check"></i> Iframes</li>
+                                <li> <i class="fa-solid fa-check"></i> JavaScript</li>
+                                <li> <i class="fa-solid fa-check"></i> Head</li>
+                                <li> <i class="fa-solid fa-check"></i> Forms</li>
+                                <li> <i class="fa-solid fa-check"></i> Blooper :-}</li>
+                            </ul>
+                            <a href="https://tinyurl.com/54asdwyk" target="_blank"
+                                class="exp-vid-subscribe-btn">Subscribe</a>
+                        </div>
+
+
+                    </div>
+                    <!-- 
+                    <li class="exp-ul"> <a href="#">Get Certified</a></li>
+                    <li class="exp-ul"> <a href="#">Upgrade</a></li>
+                    <li class="exp-ul"> <a href="#">Spaces</a></li>
+                    <li class="exp-ul"> <a href="#">Shop</a></li> -->
+
+
+
+                    <!----------------------------------- Expand Part End ------------------------------------------------>
+
+                </ul>
+            </div>
+            <div class="nav-ul-2">
+
+                <ul class="second-ul">
+                    <li><i class="fa-solid fa-circle-half-stroke"></i></li>
+                    <li><i class="fa-solid fa-earth-americas"></i></li>
+                    <li><i class="fa-solid fa-magnifying-glass"></i></li>
+                    <li><a class="upgrade" href="#">Upgrade</a></li>
+                    <li><a class="certified" href="#">Get Certified</a></li>
+                    <li><a class="free-web" href="#">Free Website</a></li>
+                    <li><a class="log-in" href="#">Log in</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Main Container -->
+
+        <!-- <main> -->
+        <div class="home-container">
+            <div class="home-details">
+
+                <h1>Learn to Code</h1>
+                <p id="sub-heading">With the World's largest web developer site.</p>
+                <form action="#">
+                    <input type="search" name="search" id="search" placeholder="Search our tutorials,e.g.HTML">
+                    <span class="search-icon"><i class="fa-solid fa-magnifying-glass "></i></span>
+                    <p id="home-last"><a href="#">Not Sure Where To Begin?</a></p>
+                </form>
+            </div>
+
+        </div>
+        <!--  -->
+        <div class="second-container">
+            <!-- <div class="svg-image">
+                    <img src="/images/svg.svg" alt="">
+                </div> -->
+
+            <div class="five-containers html-container">
+                <div class="first-box">
+                    <h1>HTML</h1>
+                    <p>The language for building web pages</p>
+                    <a class="green-btn" href="#">Learn HTML</a>
+                    <a class="yellow-btn" href="#">Video Tutorials</a>
+                    <a class="black-btn" href="#"> HTML Reference</a>
+                    <a class="pink-btn" href="#">Get Certified</a>
+                </div>
+                <div class="second-box">
+                    <h2>HTML Example</h2>
+                    <pre>
+   &lt;!DOCTYPE  html>
+   &lt;html>
+   &lt;title> HTML Tutorial  &lt;/title>
+   &lt;body>
+ 
+   &lt;h1>This is a heading&lt;/h1>
+   &lt;p>This is a paragraph.&lt;/p>
+ 
+   &lt;/body>
+   &lt;/html>
+                         </pre>
+                    <a class="green-btn try-self-btn" href="#"">Try it Yourself</a>
+                    </div> 
+
+                </div>
+
+                <div class=" five-containers css-container">
+                        <div class="first-box">
+                            <h1>CSS</h1>
+                            <p>The language for styling web pages</p>
+                            <a class="green-btn" href="#">Learn CSS</a>
+                            <a class="black-btn" href="#">CSS Reference</a>
+                            <a class="pink-btn" href="#">Get Certified</a>
+                        </div>
+                        <div class="second-box">
+                            <h2>CSS Example</h2>
+                            <pre>
+    body {
+        background-color: lightblue;
+      }
+   
+      h1 {
+        color: white;
+        text-align: center;
+      }
+   
+      p {
+        font-family: verdana;
+      }
+                        </pre>
+                            <a class="green-btn try-self-btn" href="#"">Try it Yourself</a>
+                    </div> 
+                </div>
+
+                <div class=" five-containers javascript-container">
+                                <div class="first-box">
+                                    <h1>JS</h1>
+                                    <p>Language for programming web pages</p>
+                                    <a class="green-btn" href="#">Learn JavaScript</a>
+                                    <a class="yellow-btn" href="#">Javascript Reference</a>
+                                    <a class="pink-btn" href="#">Get Certified</a>
+                                </div>
+                                <div class="second-box">
+                                    <h2>JavaScript Example</h2>
+                                    <pre>
+   &lt;button onclick="myFunction()">Click Me! &lt;/button>
+
+   &lt;script>
+   function myFunction() {
+   let x = document.getElementById("demo");
+   x.style.fontSize = "25px";
+   x.style.color = "red";
+   }
+   &lt;/script>
+                        </pre>
+                                    <a class="green-btn try-self-btn" href="#"">Try it Yourself</a>
+                    </div> 
+                </div>
+              
+                <div class=" five-containers python-container">
+                                        <div class="first-box">
+                                            <h1>Python</h1>
+                                            <p>A popular programming language</p>
+                                            <a class="green-btn" href="#">Learn Python</a>
+                                            <a class="yellow-btn" href="#">Python Reference</a>
+                                            <a class="pink-btn" href="#">Get Certified</a>
+                                        </div>
+                                        <div class="second-box">
+                                            <h2>Python Example</h2>
+                                            <pre>
+   if 5 > 2:
+   print("Five is greater than two!")
+                        </pre>
+                                            <a class="green-btn try-self-btn" href="#"">Try it Yourself</a>
+                    </div> 
+                </div>
+
+                                                <div class=" five-containers sql-container">
+                                                <div class="first-box">
+                                                    <h1>SQL</h1>
+                                                    <p>A language for accessing database</p>
+                                                    <a class="green-btn" href="#">Learn SQL</a>
+                                                    <a class="black-btn" href="#">SQL Reference</a>
+                                                    <a class="pink-btn" href="#">Get Certified</a>
+                                                </div>
+                                                <div class="second-box">
+                                                    <h2>SQL Example</h2>
+                                                    <pre>
+  SELECT * FROM Customers
+  WHERE Country='Mexico';
+                        </pre>
+                                                    <a class="green-btn try-self-btn" href="#"">Try it Yourself</a>
+                    </div> 
+                                                </div>
+
+                                                <div class=" six-box-container">
+                                                        <div class="six-box php-box">
+                                                            <h3>PHP</h3>
+                                                            <p>A Web server programming language</p>
+                                                            <a href="#">Learn PHP</a>
+                                                        </div>
+                                                        <div class="six-box jquery-box">
+                                                            <h3>jQuery</h3>
+                                                            <p>A JS library for developing web pages</p>
+                                                            <a href="#">Learn jQuery</a>
+                                                        </div>
+                                                        <div class="six-box java-box">
+                                                            <h3>Java</h3>
+                                                            <p>A programming language</p>
+                                                            <a href="#">Learn Java</a>
+                                                        </div>
+                                                        <div class="six-box cpp-box">
+                                                            <h3>C++</h3>
+                                                            <p>A programming language</p>
+                                                            <a href="#">Learn C++</a>
+                                                        </div>
+                                                        <div class="six-box w3s-box">
+                                                            <h3>W3.CSS</h3>
+                                                            <p>A CSS framework for responsive web
+                                                                pages</p>
+                                                            <a href="#">Learn W3.CSS</a>
+                                                        </div>
+                                                        <div class="six-box bootstrap-box">
+                                                            <h3>Bootstrap</h3>
+                                                            <p>A CSS framework for responsive web pages</p>
+                                                            <a href="#">Learn Bootstrap</a>
+                                                        </div>
+
+                                                </div>
+
+                                                <div class="two-boxes-container">
+                                                    <div class="two-box box-1">
+                                                        <p>C</p>
+                                                    </div>
+                                                    <div class="two-box box-2">
+                                                        <p>C#</p>
+                                                    </div>
+                                                </div>
+
+                                                <div class="many-box-container">
+                                                    <a href="#" class="many-box gray-btn">R</a>
+                                                    <a href="#" class="many-box light-green-btn">Kotlin</a>
+                                                    <a href="#" class="many-box blue-btn">Node.js</a>
+                                                    <a href="#" class="many-box pink-btn">React</a>
+                                                    <a href="#" class="many-box yellow-btn">JSON</a>
+                                                    <a href="#" class="many-box gray-btn">Angular</a>
+                                                    <a href="#" class="many-box light-green-btn">MySQL</a>
+                                                    <a href="#" class="many-box blue-btn">XML</a>
+                                                    <a href="#" class="many-box pink-btn">Sass</a>
+                                                    <a href="#" class="many-box yellow-btn">Icons</a>
+                                                    <a href="#" class="many-box gray-btn">RWD</a>
+                                                    <a href="#" class="many-box light-green-btn">Graphics</a>
+                                                    <a href="#" class="many-box blue-btn">SVG</a>
+                                                    <a href="#" class="many-box pink-btn">Canvas</a>
+                                                    <a href="#" class="many-box yellow-btn">Raspberry Pi</a>
+                                                    <a href="#" class="many-box gray-btn">Cyber Security</a>
+                                                    <a href="#" class="many-box light-green-btn">Colors</a>
+                                                    <a href="#" class="many-box blue-btn">Git</a>
+                                                    <a href="#" class="many-box pink-btn">Matplotlib</a>
+                                                    <a href="#" class="many-box yellow-btn">NumPy</a>
+                                                    <a href="#" class="many-box gray-btn">Pandas</a>
+                                                    <a href="#" class="many-box light-green-btn">SciPy</a>
+                                                    <a href="#" class="many-box blue-btn">ASP</a>
+                                                    <a href="#" class="many-box pink-btn">Accessiblity</a>
+                                                    <a href="#" class="many-box yellow-btn">AppML</a>
+                                                    <a href="#" class="many-box gray-btn">Go</a>
+                                                    <a href="#" class="many-box light-green-btn">TypeScript</a>
+                                                    <a href="#" class="many-box blue-btn">Django</a>
+                                                    <a href="#" class="many-box pink-btn">MongoDB</a>
+                                                    <a href="#" class="many-box yellow-btn">Statistics</a>
+                                                    <a href="#" class="many-box gray-btn">Data Science</a>
+                                                    <a href="#" class="many-box light-green-btn">Typing Speed</a>
+                                                </div>
+
+                                                <div class="four-box-container">
+                                                    <a class="four-box blue-btn" href="#">Excel</a>
+                                                    <a class="four-box yellow-btn" href="#">Google Sheets</a>
+                                                    <a class="four-box pink-btn" href="#">Machine Learning</a>
+                                                    <a class="four-box gray-btn" href="#">Artificial
+                                                        Intelligence</a>
+                                                </div>
+                                                <div class="code-editor-container">
+                                                    <h2>Code Editor</h2>
+                                                    <p>With our online code editor,you can edit code and view the
+                                                        result in your
+                                                        browser</p>
+                                                    <div class="editor-image-box">
+                                                        <div class="three-color">
+                                                            <i class="fa-solid fa-circle red-circle"></i>
+                                                            <i class="fa-solid fa-circle yellow-circle"></i>
+                                                            <i class="fa-solid fa-circle green-circle"></i>
+                                                            <input type="search" placeholder="www.w3schools.com/tryit/"
+                                                                readonly>
+                                                        </div>
+                                                        <div class="front-back-btn">
+                                                            <!-- <input type="checkbox" name="" class="front-checkbox"> -->
+                                                            <a class="f-b-btn" href="#">Frontend</a>
+                                                            <!-- <input type="checkbox" name="" class="back-checkbox"> -->
+                                                            <!-- <a href="#">Backend</a> -->
+                                                        </div>
+                                                        <img class="frontend-img" src="/images/codeeditor.gif"
+                                                            alt=""><br>
+
+                                                    </div>
+                                                    <a class="editor-front-btn green-btn" href="#">Try Frontend
+                                                        Editor (HTML/CSS/JS)</a>
+
+                                                    <div class="editor-image-box">
+                                                        <div class="three-color">
+                                                            <i class="fa-solid fa-circle red-circle"></i>
+                                                            <i class="fa-solid fa-circle yellow-circle"></i>
+                                                            <i class="fa-solid fa-circle green-circle"></i>
+                                                            <input type="search" placeholder="www.w3schools.com/tryit/"
+                                                                readonly>
+                                                        </div>
+                                                        <div class="front-back-btn">
+                                                            <!-- <input type="checkbox" name="" class="front-checkbox"> -->
+                                                            <!-- <a href="#">Frontend</a> -->
+                                                            <!-- <input type="checkbox" name="" class="back-checkbox"> -->
+                                                            <a href="#">Backend</a>
+                                                        </div>
+                                                        <img class="backend-img" src="/images/code-editor-2.gif"
+                                                            alt=""><br>
+
+                                                    </div>
+                                                    <a class="editor-back-btn yellow-btn href=" #">Try Backend
+                                                        Editor
+                                                        (Python/PHP/Java/C..)</a>
+
+
+                                                </div>
+                                                <div class="w3-space-container">
+                                                    <h2>W3Schools Spaces </h2>
+                                                    <p>Build your own website with W3Schools Spaces.</p>
+                                                    <img src="/images/w3-space.png" alt="">
+                                                    <img src="/images/how-spaces-works3.png" alt=""> <br>
+                                                    <a class="w3-space-btn green-btn" href="#">Get Started for Free</a>
+                                                </div>
+                                                <div class="my-learning-container">
+                                                    <h2>My Learning</h2>
+                                                    <p>Track your progress with the <b>free</b> "My Learning" program
+                                                        here at W3Schools.</p><br>
+                                                    <p>Log in to your account, and start earning points!</p>
+                                                    <img src="/images/myl-green-off.png" alt=""><br>
+                                                    <a href="#" class="my-learning-btn green-btn">Sign up for Free</a>
+                                                </div>
+
+                                                <div class="pro-user-container">
+                                                    <h2>Become a PRO User</h2><br>
+                                                    <span>And unlock powerful features:</span>
+                                                    <p><i class="fa-solid fa-check"></i>Browse W3Schools without ads</p>
+                                                    <p><i class="fa-solid fa-check"></i>Website hoisting (Includes
+                                                        <u>Spaces</u> PRO
+                                                    </p>
+                                                    <p><i class="fa-solid fa-check"></i>Access to our <u>HTML Video
+                                                            Tutorial</u></p>
+                                                    <a href="#" class="learn-more-btn green-btn">Learn More</a>
+                                                </div>
+
+                                                <div class="color-picker-container">
+                                                    <h2>Color Picker</h2>
+                                                    <p>W3Schools'famous color picker:</p>
+                                                    <a href="#"><img src="/images/colorpicker.png" alt=""></a>
+                                                </div>
+                                                <div class="code-game-container ">
+                                                    <h2>Code Game</h2>
+                                                    <p>Help the Lynx collect pine cones!</p>
+                                                    <img src="/images/game.png" alt=""><br>
+                                                    <a class="black-btn" href="#">Play Game</a>
+                                                </div>
+                                                <div class="quiz-container">
+                                                    <h2>Excercises and Quizzes</h2>
+                                                    <p>Test your skills!</p>
+                                                    <div class="quiz-btn-container">
+                                                        <a class="quiz-btn green-btn" href="#">Exercises</a>
+                                                        <a class="quiz-btn quiz-btn-2 yellow-btn" href="#">Quizzes</a>
+                                                    </div>
+                                                </div>
+
+                                                <div class="web-template-container">
+                                                    <h2>Web Templates</h2>
+                                                    <p>Browse our selection of <b>free</b> responsive HTML Templates</p>
+                                                    <img src="/images/w3css_templates.jpg" alt=""><br>
+                                                    <a href="#" class="template-btn black-btn">Browse Templates</a>
+                                                </div>
+                                                <div class="certificate-container">
+                                                    <h2>Kickstart your career</h2>
+                                                    <h3>Get certified by completing a course</h3>
+                                                    <a class="get-started-btn green-btn" href="#">Get started</a>
+                                                    <div class="certificate-image-container">
+                                                        <img class="white-line-img" src="/images/white-line.svg" alt="">
+                                                        <img class="w3-certificate-img"
+                                                            src="/images/certificate-img.svg" alt="">
+                                                    </div>
+                                                </div>
+                                                <div class="how-to-container">
+                                                    <h2>How To Section</h2>
+                                                    <h4>Code snippets for HTML,CSS and JavaScript </h4>
+                                                    <p>For example,how to create a slideshow:</p>
+                                                    <div class="how-to-image-container">
+                                                        <i class="fa-solid fa-circle red-circle"></i>
+                                                        <i class="fa-solid fa-circle yellow-circle"></i>
+                                                        <i class="fa-solid fa-circle green-circle"></i>
+                                                        <input type="search" placeholder="www.w3schools.com/howto/"
+                                                            readonly>
+                                                        <div class="how-to-image">
+                                                            <img class="img-1" src="/images/image-1.jpg" alt="">
+                                                        </div>
+
+                                                    </div> <span class="how-to-span"></span>
+                                                    <a href="#" class="learn-how-btn black-btn">Learn How To</a>
+                                                </div>
+                                                <!--------------------->
+                                                <footer>
+                                                    <div class="footer-first-line">
+                                                        <div class="footer-btn">
+                                                            <a href="#">QUIZZES</a>
+                                                            <a href="#">EXCERCISES</a>
+                                                            <a href="#">CERTIFICATE</a>
+                                                            <a href="#">UPGRADE</a>
+                                                            <a href="#">SPACES</a>
+                                                            <a href="#">SUPPORT</a>
+                                                            <a href="#">NEWSLETTER</a>
+                                                        </div>
+                                                        <span>FORUM | ABOUT</span>
+
+                                                    </div>
+                                                    <div class="footer-second-line">
+                                                        <i class="fa-brands fa-square-facebook"></i>
+                                                        <i class="fa-brands fa-instagram"></i>
+                                                        <i class="fa-brands fa-linkedin"></i>
+                                                        <i class="fa-brands fa-discord"></i>
+                                                    </div>
+                                                    <div class="footer-third-line">
+                                                        <p>W3Schools is optimized for learning, testing, and training.
+                                                            Examples might be simplified to improve reading and basic
+                                                            understanding. Tutorials, references, and examples are
+                                                            constantly reviewed to avoid errors, but we cannot warrant
+                                                            full correctness of all content. While using this site, you
+                                                            agree to have read and accepted our <u>terms of use, cookie
+                                                                and privacy policy.
+                                                                <br> Copyright 1999-2022 by Refsnes Data. All Rights
+                                                                Reserved.</u>
+                                                        </p>
+                                                    </div>
+                                                    <a class="thumb-icon" href="#nav-scroll"><i
+                                                            class="fa-regular fa-thumbs-up"></i></a>
+                                                </footer>
+                                        </div>
+                                        <!-- </main> -->
+
+                                </div>
+</body>
+
+</html>

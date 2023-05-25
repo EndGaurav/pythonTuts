@@ -1,0 +1,21 @@
+Note: Always put template folder name as templates.
+* For importing the flask module.
+    from flask import Flask
+
+* In flask, when we create any website that's known as app.
+    Syntax :
+    app = Flask(__name__)
+
+* For running flask application
+    app.run()
+
+* For getting new changes automatically
+    app.run(debug=True)
+
+* from flask import render_template is a Python import statement that imports the render_template function from the Flask web framework.
+* render_template() is function.
+
+* use variable in flask
+def gaurav():
+    name =  "mygaurav"
+    return render_template("index.html", name2=name) note: name2 goes into template. like this {{ name2 }}

@@ -1,0 +1,243 @@
+@media screen and (max-width: 1275px) {
+
+    .upgrade {
+      display: none;
+    }
+  }
+  
+  @media screen and (max-width: 1200px) {
+    .certified {
+      display: none;
+    }
+  }
+  @media screen and (max-width:1110px){
+    .five-containers{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+    .five-containers .second-box{
+      width: 100%;
+      /* font-size: 1vw; */
+    }
+    .second-box pre{
+      font-size: 0.5rem;
+    }
+    .six-box-container{
+      display: flex;
+      flex-direction: column;
+      margin: 2rem 0.5rem;
+    }
+    .six-box-container .six-box{
+      width: 100%;
+    }
+    .two-boxes-container{
+      display: flex;
+      flex-direction: column;
+    }
+    .many-box-container{
+      display: grid;
+      justify-content: center;
+      gap:  1rem ;
+      grid-template-columns: repeat(2,1fr);
+      margin: 2rem 4rem;
+  
+    }
+    .many-box-container .many-box{
+      font-size: 1.2rem;
+      padding: 2.5rem ;
+  
+    }
+    .four-box-container{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+      width: 100%;
+      margin: 4rem 0rem; 
+    }
+    /* .code-editor-container{
+      display: flex;
+    }
+    .editor-image-box img{
+      width: 100%;
+    } */
+    
+  }
+  @media screen and (max-width:300px){
+    .circle-color{
+      height: 0.85vh;
+      width: 1vw;
+    }
+    .front-back-btn{
+    font-size: 0.5em;
+    }
+    .code-editor-container h2{
+      font-size: 5px;
+    }
+  }
+  
+  @media screen and (max-width: 1036px) {
+    .free-web {
+      display: none;
+    }
+    .how-to-image-container{
+      display: none;
+    }
+    .how-to-span{
+      display: none;
+    }
+  }
+  
+  @media screen and (max-width:900px) {
+    .vid-down{
+      display: none;
+    }
+  }
+  
+  @media screen and (max-width: 815px) {
+    .first-ul {
+      display: none;
+    }
+    .first-ul{
+      font-size: 1.5rem;
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      top: 5rem;
+      /* left: -1rem; */
+      /* padding: 10.2rem 0; */
+      width: 100%;
+      background-color: #e7e9eb;
+      height: 100%;
+      z-index: 4;
+      padding: 5rem 0;
+    }
+    .first-ul li {
+      padding: 1rem;
+    }
+   
+    .first-ul .exp-ul {
+      color: black;
+    }
+     .tutorial-checkbox {
+      opacity: 1;
+      position: absolute;
+      top: 6rem;
+      width: 10%;
+      height: 5vh;
+  
+    }
+    
+    .tut-expand {
+      display: grid;
+      grid-template-columns:200px 200px;
+      justify-content: center;
+      padding: 5rem 1rem;
+      font-size: 1rem;
+      width: 100%;
+      margin: 3rem 0;
+  
+    }
+    .reference-checkbox {
+      opacity: 1;
+      position: absolute;
+      top: 8.6rem;
+      left: 13.5rem;
+      width: 10%;
+      height: 5vh;
+  
+    }
+    .ref-expand {
+      margin: 5.9rem 0;
+      display: grid;
+      grid-template-columns:200px 200px;
+      /* grid-template-columns:auto auto; */
+      justify-content: center;
+      padding: 5rem 1rem;
+      font-size: 1rem;
+      width: 100%;
+    }
+    .exercise-checkbox {
+      opacity: 1;
+      position: absolute;
+      top: 11.6rem;
+      left: 13.5rem;
+      width: 10%;
+      height: 5vh;
+    }
+    .exe-expand {
+      margin: 9rem 0;
+      display: grid;
+      grid-template-columns:200px 200px;
+    }
+    .certificate-image-container{
+      display: none;
+    }
+  }
+  
+  @media screen and (min-width: 815px) {
+    .toggle-menu-container {
+      display: none;
+    }
+    
+  
+    /* .exp-ul {
+      color: black;
+      display: none;
+    } */
+  }
+  
+   @media screen and (max-width: 600px) {
+    .home-details h1 {
+      font-size: 3rem;
+    }
+    .home-details #sub-heading {
+      font-size: 1.2rem;
+     }
+  /*    
+    .first-ul .down {
+      font-size: 1.2rem;
+      padding: 0.8rem;
+      position: relative;
+      top: -5rem;
+    }
+    .tut-expand,
+    .ref-expand,
+    .exe-expand {
+      display: flex;
+      flex-direction: column;
+      left: 0;
+      margin: 4rem 0;
+    }
+    */
+    .tutorial-checkbox {
+      opacity: 1;
+      position: absolute;
+      top: 6.2rem;
+      width: 50px;
+    }
+    /*
+    .tut-expand {
+      margin: 5rem 0;
+    }
+    */
+  
+   /*
+  
+  
+    .exp-box {
+      margin: 1rem;
+    }
+    .exp-heading {
+      margin: 6rem;
+    } 
+    .exp-items {
+      margin: 0.5rem 0;
+      font-size: 1rem;
+    } */
+    .quiz-btn-container{
+      display: flex;
+      flex-wrap: wrap;
+    }
+  } 
+  
+  
